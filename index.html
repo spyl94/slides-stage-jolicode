@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Soutenance Stage M2 - Aurélien David</title>
+
+		<meta name="description" content="Soutenance Stage M2">
+		<meta name="author" content="Aurélien David">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme-basis">
+		<link rel="stylesheet" href="css/theme/pw14.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/tomorrow.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+    <script type="text/javascript">
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-43650325-1', 'delicious-insights.com');
+       ga('send', 'pageview');
+     </script>
+	</head>
+
+	<body id="prioFix">
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Stage M2 Jolicode</h1>
+					<h3>Développeur Web dans une startup</h3>
+					<p>
+						<small>Présenté par <a href="http://blog.spyl.net/">Aurélien David</a></small>
+					</p>
+				</section>
+
+				<section id="whoami">
+					<h2>Présentation</h2>
+
+					<pre><code data-trim class="javascript">
+var aurelien = {
+  age:        23,
+  city:       'Champigny-sur-Marne',
+  studies:    'Efrei - IRV',
+  company:    'JoliCode',
+  languages:  ['PHP', 'JavaScript'],
+  frameworks: ['Symfony','Node.js','React']
+};
+          </code></pre>
+				</section>
+
+        <section id="abstract">
+          <h2>Résumer un stage en 30 minutes</h2>
+          <h3>On y croit !</h3>
+
+          <p>Découvrir JoliCode et Cap-Collectif</p>
+          <p>Améliorer la <strong>qualité</strong> du workflow et l'adapter à l'équipe !</p>
+          <p>Etudier les <strong>fonctionnalités réalisées</strong></p>
+          <p>Aller plus loin…</p>
+        </section>
+
+        <section id="history">
+          <h2>What's JoliCode ?</h2>
+          <h4>in 30 secondes</h4>
+          <img src="services.png" alt="">
+        </section>
+
+        <section id="history">
+          <h2>The Concept of Cap-Collectif</h2>
+          <h4>in 30 secondes</h4>
+          <img src="services.png" alt="">
+        </section>
+
+        <section id="history">
+          <h2>History of Cap-Collectif</h2>
+
+          <ul>
+            <li>2007 : Establishment of the Agency</li>
+            <li>2008 : Start of activity</li>
+            <li>2013 - 2014 : Fundraising 3 million euros</li>
+            <li class="fragment"><strong>April 1st : Launch of the V2</strong></li>
+            <li class="fragment">March 02 : Beginning of my internship ! :-)</li>
+          </ul>
+        </section>
+
+				<section data-state="theme-color-blue-yellow">
+
+					<section id="installs">
+						<h1>Courage!</h1>
+            <h2>Ça va bien se passer</h2>
+					</section>
+
+          <section id="install-node">
+            <h2>L'équipe est cool*</h2>
+            <h4>*En plus on a des Macs !</h4>
+          </section>
+
+
+
+          <section id="install-git">
+            <h2>Qu'est ce qu'on code ?</h2>
+              <ul>
+                <li>Un front ultra complexe !</li>
+                <li>Un back </li>
+                <li class="fragment"><strong>Le tout en préparant l'internationalisation !</strong></li>
+              </ul>
+           </section>
+
+
+          <section id="install-git">
+            <h2>Comment on fait ça ?</h2>
+              <ul>
+                <li>PHP / Symfony : plus de 8500 fichiers !</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li class="fragment"><strong>Pas d'intégration continue   ヽ(ﾟДﾟ)ﾉ</strong></li>
+              </ul>
+           </section>
+
+          <section id="install-mongodb">
+            <h2>Et la méthodologie dans tout ça ?</h2>
+            <ul>
+              <li>1er mois : Gestionnaire de tickets</li>
+              <li>Ensuite : Scrum (ouf!)</li>
+            </ul>
+          </section>
+
+				</section> <!-- #installs -->
+
+				<section data-state="theme-color-forest-yellow">
+
+          <section id="hello-world">
+            <h1>Hello Integration Continue</h1>
+            <h3>Soulever le voile</h3>
+          </section>
+
+          <section id="hello-basic">
+            <h2>Pourquoi des tests ?</h2>
+            <ul>
+              <li>Eviter les bugs de régression</li>
+              <li>Plus peur de modifier du code critique !</li>
+            </ul>
+          </section>
+
+          <section id="hello-basic">
+            <h2>Déploiement continu</h2>
+            <img src="deploy.png" alt="">
+            <p>Mettre en production n'est plus un événement !</p>
+          </section>
+
+          <section id="hello-basic">
+            <h2>Le sprint capco</h2>
+            <ul>
+              <li>On joue au Poker et on plannifie</li>
+              <li>Choix libre des tâches à coder</li>
+              <li>On visualise l'avancement avec le Scrum Board</li>
+              <li>On fait le point tous les jours</li>
+            </ul>
+          </section>
+
+          <section id="hello-basic">
+            <h2>Mon premier Sprint</h2>
+            <ul>
+              <li>On communique avec les dirigeants</li>
+              <li>On debrief entre nous !</li>
+              <li>Et on choisit le prochain Scrum Master</li>
+            </ul>
+          </section>
+
+          <section id="hello-npm">
+            <h2>Et si on allait plus loin ?</h2>
+            <p>Quelques propositions d'améliorations pragmatiques...</p>
+            <p>Pour réduire le temps de développement des changements !</p>
+          </section>
+
+          <section id="hello-npm">
+            <h2>Pair-Programming</h2>
+            <img src="pair-programming.jpg" alt="">
+            <p>Facilite l'insertion des nouveaux au projet !</p>
+            <p>100 % Code Review</p>
+          </section>
+
+        </section> <!-- #hello-world -->
+
+        <section data-state="theme-color-asphalt-orange">
+
+          <section id="server">
+            <h1>Résultats</h1>
+            <h3>Déjà utilisés en production !</h3>
+          </section>
+
+          <section id="express">
+            <h2>Formulaire dynamique</h2>
+            <h4>Composants Form et Validator</h4>
+
+            <p>+ de 50 combinaisons possibles*</p>
+
+            <footer>* J'espère que ça marche encore…</footer>
+          </section>
+
+          <section id="templating">
+            <h2>Envoi de mails en asynchrone</h2>
+            <h4>Avec RabbitMQ</h4>
+            <img src="queue.png" alt="">
+            <p>Un début d'architecture orientée services</p>
+            <p>découpée et scalable</p>
+          </section>
+
+          <section id="nodemon">
+            <h2>Environement de développement</h2>
+            <h4>Vagrant et Puphpet</h4>
+
+            <p>Virtualisé et installable en ~1 heure…</p>
+            <p>Totalement automatique !</p>
+          </section>
+
+          <section id="nodemon">
+            <h2>Bien d'autres…</h2>
+            <p>Migrations de données</p>
+            <p>Landing pages</p>
+            <p>Echéancier de paiements</p>
+          </section>
+
+        <section id="trainings" data-state="theme-color-mint-beige">
+          <h2>Acquis</h2>
+          <br>
+          <ul>
+            <li>Context d'entreprise</li>
+            <li>Communication technique</li>
+            <li>Importance de l'expérimentation</li>
+          </ul>
+        </section>
+
+        <section id="trainings" data-state="theme-color-mint-beige">
+          <h2>Avis perso</h2>
+
+          <p>Sentiment d'avoir été utile : Plateforme Saas...</p>
+          <p>Rencontre avec des passionés</p>
+          <p>Conscient de l'impact de la dette technique</p>
+          <br>
+        </section>
+
+				<section id="trainings" data-state="theme-color-mint-beige">
+					<h2>Conclusion</h2>
+
+          <p>Envie de continuer à faire avancer Cap-Collectif</p>
+          <p> et de créer ma propre startup au sein de JoliCode !</p>
+
+          <p>En applicant les idées développées pendant le stage...</p>
+
+				</section>
+
+				<section>
+					<h1>Merci !</h1>
+          <br>
+					<p>Aurélien David</p>
+          <p><a href="https://twitter.com/spyl94">@spyl94</a></p>
+
+          <p class="breathing">
+            Retrouvez les slides sur <a href="http://bit.ly/stagejolicode">bit.ly/stagejolicode</a><br/>
+          </p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+        width: 980,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
